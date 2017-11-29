@@ -57,5 +57,6 @@ public class Main implements Runnable {
 
 	    	frame.pack(); // ウィンドウに乗せたものの配置を確定する
 	    	frame.setVisible(true); // ウィンドウを表示する
+
     }
 }
