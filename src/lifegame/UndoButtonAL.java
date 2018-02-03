@@ -3,16 +3,16 @@ package lifegame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class NextButtonActionListener implements ActionListener{
+public class UndoButtonAL implements ActionListener{
 
 	private BoardModel model;
 
-	NextButtonActionListener(BoardModel m){
+	UndoButtonAL(BoardModel m){
 		model = m;
 	}
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
-		model.next();
+		model.undo();
 	}
 }
